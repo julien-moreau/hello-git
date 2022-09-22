@@ -1,1 +1,3 @@
-console.log("collisions");
+function checkCollisions() {
+    return true;
+}
