@@ -1,6 +1,11 @@
+function ease(x) {
+
+}
+
 function animate(x) {
     if (!checkCollisions()) {
-        player.position.x += x;
+        const a = ease(x);
+        player.position.x += a;
     }
 }
 
