@@ -1,4 +1,6 @@
-const a = 0;
-if (a > 0) {
-    console.log("First line with a if");
+function sum(a, b) {
+    return a + b;
 }
+
+console.log(sum(1, 1));
+console.log(sum(2, 2));
